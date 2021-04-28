@@ -1,145 +1,42 @@
-*{
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Resume</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
 
-body {
-  margin: 0px;
-  padding:0px;
-  font: poppins;
-}
+  <body>
 
-#main {
-   width:100%;
-   height:60vh;
-   position:relative;
-}
+    <section id="main">
+      <nav>
+         <a href="#" class="logo">
+           <img src="190919-REBEL-UA-ProjectRock-BTB-Logo-BW.png" alt="The Logo Of Project Rock">
+         </a>
 
-nav {
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
-  z-index: 1;
-}
+         <span class="menu-space"></span>
+         <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Recent</a></li>
+          <li><a href="#">Clients </a></li>
+          <li><a href="#">Contacts </a></li>
+         </ul>
+           <a href="3" class="hey"><strong>Say Hi!</strong></a>
+      </nav> 
+    </section>
 
-.logo img {
-  height: 45px;
-}
 
-.menu {
-  list-style: none;
-  display: flex;
-}
+       <section class="content">
+        <div class="image">
+          <img src="5a53f2c28d879eefb51dd6db1ecd077f-removebg-preview.png" alt="Rock">
+        </div>
+        <div class="main-text">
+           <h1> Hello, I am The <br> Rock</h1>
+           <p> Hey in this video I will be showing you guys how to build a website using only HTML and CSS</p>
+           <a href="#" class="resume-btn"> See My Resume</a>
+        </div>
+       </section>
 
-.menu li a {
-  height: 40px;
-  line-height: 43px;
-  margin: 3px;
-  padding: 0px 22px;
-  display: flex;
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 500px;
-  letter-spacing: 1px;
-  color: grey;
-}
-
-a {
-  text-decoration: none; 
-}
-
-.hey {
-  color: #39bfbd;
-  font-weight: 100;
-  font-size: 0.9em;
-  border-bottom: 1px solid #39bfbd;
-  
-
-}
-
-.image {
-  width: 500px;
-  height: 500px;
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.content {
-  display: flex;
-  width:90%;
-  justify-content: space-around;
-  align-items: center;
-  left: 50%;
-  right: 50%; 
-  transform: translate(-50%,-50%);
-}
-
-.image {
-width: 500px;
-height: 500px;
-}
-
-.image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.content {
-  display: flex;
-  width: 90%;
-  justify-content: space-around;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%,-50%);
-}
-
-.main-text {
-width: 500px;
-}
-
-.main-text h1 {
-font-size: 3.5em;
-color: #1c3548;
-margin: 0px 0px 10px 0px;
-line-height: 60px;
-}
-
-.main-text p {
-color:grey;
-}
-
-.resume-btn {
-width: 190px;
-height: 44px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-background-color: #1db096;
-border-radius: 20px;
-box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
-}
-
-.resume-btn:hover {
-  background-color: #23cdaf;
-  transition: all ease 0.2s;
-}
-
-.menu li a:hover {
-  background-color: #23cdaf;
-  color: white;
-  box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
-  transition: all ease 0.2s;
-}
+  </body>
+</html>
